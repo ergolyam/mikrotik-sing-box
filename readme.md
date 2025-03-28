@@ -125,7 +125,7 @@
     /ip/firewall/filter disable [find action=fasttrack-connection]
     ```
     - You can also simply exclude labeled traffic:
-        ````plaintext
+        ```plaintext
         /ip/firewall/filter set [find action=fasttrack-connection] packet-mark=no-mark connection-mark=no-mark
         ```
 
