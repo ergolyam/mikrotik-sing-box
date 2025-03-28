@@ -58,9 +58,9 @@
 
 1. **Create a virtual interface**:
     - Replace `X` with any unused number (for example, `192.168.254.2/24`).  
-    ```plaintext
-    /interface/veth add address=192.168.254.X/24 gateway=192.168.254.1 name=SING-BOX
-    ```
+        ```plaintext
+        /interface/veth add address=192.168.254.X/24 gateway=192.168.254.1 name=SING-BOX
+        ```
     - This command creates a new VETH (virtual Ethernet) interface on your MikroTik device.
 
 2. **Add the virtual interface to the main bridge**:
