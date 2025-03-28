@@ -11,8 +11,8 @@
 2. **We need to install the `container` package**:
     - Go to the site [Software Packages](https://mikrotik.com/download).
     - Download `Extra packages` for your architecture.
-    - Pull out the `container*.npk` installation file and drop it into the root of the microtik's file system.
-    - Enable container in microtik.
+    - Pull out the `container*.npk` installation file and drop it into the root of the mikrotik's file system.
+    - Enable container in mikrotik.
         ```plaintext
         /system/device-mode update container=yes
         ```
