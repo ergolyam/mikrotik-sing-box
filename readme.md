@@ -17,10 +17,10 @@
         /system/device-mode update container=yes
         ```
 
-- Restart the router.
-    ````plaintext
-    /system reboot
-    ```
+    - Restart the router.
+        ```plaintext
+        /system reboot
+        ```
 
 - After restarting, the package from the file system will disappear and an item will be added to the winbox, `container`.
 
