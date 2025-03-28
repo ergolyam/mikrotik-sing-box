@@ -33,7 +33,7 @@ FROM --platform=$TARGETPLATFORM docker.io/busybox:stable-musl AS main
 
 LABEL maintainer="grisha765 <grisha765@tuta.io>"
 
-VOLUME /etc/sing-box
+RUN mkdir -p /etc/sing-box
 
 COPY --from=builder /go/bin/sing-box /usr/local/bin/sing-box
 
