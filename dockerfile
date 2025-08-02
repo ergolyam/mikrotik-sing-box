@@ -1,6 +1,6 @@
 FROM --platform=$BUILDPLATFORM docker.io/golang:1.24-alpine AS builder
 
-LABEL maintainer="grisha765 <grisha765@tuta.io>"
+LABEL maintainer="ergolyam <ergolyam@tuta.io>"
 
 WORKDIR /go/src/github.com/sagernet/sing-box
 
@@ -31,7 +31,7 @@ RUN set -ex \
 
 FROM --platform=$TARGETPLATFORM docker.io/busybox:stable-musl AS main
 
-LABEL maintainer="grisha765 <grisha765@tuta.io>"
+LABEL maintainer="ergolyam <ergolyam@tuta.io>"
 
 RUN mkdir -p /etc/sing-box
 

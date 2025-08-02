@@ -71,7 +71,7 @@
 
 4. **Pull the sing-box container image**:
     ```plaintext
-    /container add remote-image=grisha765/mikrotik-sing-box interface=SING-BOX root-dir=usb1/docker/sing-box dns=1.1.1.1 start-on-boot=yes envlist=vless
+    /container add remote-image=ergolyam/mikrotik-sing-box interface=SING-BOX root-dir=usb1/docker/sing-box dns=1.1.1.1 start-on-boot=yes envlist=vless
     ```
     - The `remote-image` option specifies which container image to pull from Docker Hub.  
     - `interface=SING-BOX` sets the VETH interface for the container.  
